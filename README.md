@@ -1,8 +1,9 @@
 # Ambiente de produção Laravel com Docker
 
-O objetivo do é disponibilizar um ambiente para Ambiente de produção PHP e Laravel com Docker
+O objetivo  é disponibilizar um Ambiente de produção Laravel com Docker
 
 # Tecnologias
+- Docker
 - Nginx
 - PHP
 - Composer
