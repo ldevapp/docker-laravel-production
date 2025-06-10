@@ -1,0 +1,47 @@
+2025/06/05 21:22:57 [notice] 1#1: using the "epoll" event method
+2025/06/05 21:22:57 [notice] 1#1: nginx/1.27.5
+2025/06/05 21:22:57 [notice] 1#1: built by gcc 12.2.0 (Debian 12.2.0-14) 
+2025/06/05 21:22:57 [notice] 1#1: OS: Linux 6.8.0-60-generic
+2025/06/05 21:22:57 [notice] 1#1: getrlimit(RLIMIT_NOFILE): 1048576:1048576
+2025/06/05 21:22:57 [notice] 1#1: start worker processes
+2025/06/05 21:22:57 [notice] 1#1: start worker process 28
+2025/06/05 21:22:57 [notice] 1#1: start worker process 29
+2025/06/05 21:56:18 [error] 29#29: *6 connect() failed (111: Connection refused) while connecting to upstream, client: 192.168.15.105, server: app1.test, request: "GET /info.php HTTP/1.1", upstream: "fastcgi://172.19.0.3:9000", host: "app1.test:8080"
+2025/06/05 21:56:19 [error] 29#29: *6 connect() failed (111: Connection refused) while connecting to upstream, client: 192.168.15.105, server: app1.test, request: "GET /info.php HTTP/1.1", upstream: "fastcgi://172.19.0.3:9000", host: "app1.test:8080"
+2025/06/05 21:56:22 [error] 29#29: *9 connect() failed (111: Connection refused) while connecting to upstream, client: 192.168.15.105, server: _, request: "GET / HTTP/1.1", upstream: "fastcgi://172.19.0.3:9000", host: "192.168.15.127:8080"
+2025/06/05 22:00:05 [error] 29#29: *11 connect() failed (111: Connection refused) while connecting to upstream, client: 192.168.15.105, server: _, request: "GET / HTTP/1.1", upstream: "fastcgi://172.19.0.3:9000", host: "192.168.15.127:8080"
+2025/06/05 22:00:06 [error] 29#29: *11 connect() failed (111: Connection refused) while connecting to upstream, client: 192.168.15.105, server: _, request: "GET / HTTP/1.1", upstream: "fastcgi://172.19.0.3:9000", host: "192.168.15.127:8080"
+2025/06/05 22:00:11 [error] 29#29: *14 connect() failed (111: Connection refused) while connecting to upstream, client: 192.168.15.105, server: app1.test, request: "GET /info.php HTTP/1.1", upstream: "fastcgi://172.19.0.3:9000", host: "app1.test:8080"
+2025/06/05 22:05:56 [notice] 1#1: signal 3 (SIGQUIT) received, shutting down
+2025/06/05 22:05:56 [notice] 29#29: gracefully shutting down
+2025/06/05 22:05:56 [notice] 28#28: gracefully shutting down
+2025/06/05 22:05:56 [notice] 28#28: exiting
+2025/06/05 22:05:56 [notice] 29#29: exiting
+2025/06/05 22:05:56 [notice] 29#29: exit
+2025/06/05 22:05:56 [notice] 28#28: exit
+2025/06/05 22:05:56 [notice] 1#1: signal 17 (SIGCHLD) received from 29
+2025/06/05 22:05:56 [notice] 1#1: worker process 29 exited with code 0
+2025/06/05 22:05:56 [notice] 1#1: signal 29 (SIGIO) received
+2025/06/05 22:05:56 [notice] 1#1: signal 17 (SIGCHLD) received from 28
+2025/06/05 22:05:56 [notice] 1#1: worker process 28 exited with code 0
+2025/06/05 22:05:56 [notice] 1#1: exit
+2025/06/05 22:07:22 [notice] 1#1: using the "epoll" event method
+2025/06/05 22:07:22 [notice] 1#1: nginx/1.27.5
+2025/06/05 22:07:22 [notice] 1#1: built by gcc 12.2.0 (Debian 12.2.0-14) 
+2025/06/05 22:07:22 [notice] 1#1: OS: Linux 6.8.0-60-generic
+2025/06/05 22:07:22 [notice] 1#1: getrlimit(RLIMIT_NOFILE): 1048576:1048576
+2025/06/05 22:07:22 [notice] 1#1: start worker processes
+2025/06/05 22:07:22 [notice] 1#1: start worker process 28
+2025/06/05 22:07:22 [notice] 1#1: start worker process 29
+2025/06/10 19:19:35 [notice] 1#1: signal 3 (SIGQUIT) received, shutting down
+2025/06/10 19:19:35 [notice] 29#29: gracefully shutting down
+2025/06/10 19:19:35 [notice] 28#28: gracefully shutting down
+2025/06/10 19:19:35 [notice] 29#29: exiting
+2025/06/10 19:19:35 [notice] 28#28: exiting
+2025/06/10 19:19:35 [notice] 28#28: exit
+2025/06/10 19:19:35 [notice] 29#29: exit
+2025/06/10 19:19:35 [notice] 1#1: signal 17 (SIGCHLD) received from 29
+2025/06/10 19:19:35 [notice] 1#1: worker process 29 exited with code 0
+2025/06/10 19:19:35 [notice] 1#1: signal 17 (SIGCHLD) received from 28
+2025/06/10 19:19:35 [notice] 1#1: worker process 28 exited with code 0
+2025/06/10 19:19:35 [notice] 1#1: exit
