@@ -22,9 +22,17 @@ O objetivo  é disponibilizar um Ambiente de produção Laravel com Docker
 ```
 
 ## Execute 
+Acesse a pasta
 ```bash
 # cd docker-laravel-production
+```
+Todos os container
+```bash
 # docker compose up -d
+```
+Ou execute apenas os continers desejados
+```bash
+# docker compose up -d nginx php8.2-fpm postgres
 ```
 
 ## Acesso
