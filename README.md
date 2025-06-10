@@ -26,11 +26,11 @@ Acesse a pasta
 ```bash
 # cd docker-laravel-production
 ```
-Todos os container
+Todos os serviços
 ```bash
 # docker compose up -d
 ```
-Ou execute apenas os continers desejados
+Ou execute apenas os serviços desejados
 ```bash
 # docker compose up -d nginx php8.2-fpm postgres
 ```
